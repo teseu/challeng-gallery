@@ -1,95 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Gallery</title>
+</head>
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+<body>
+  <main class="main">
+    <div class="gallery__header">
+      <img src="./profilePhoto.png" alt="rodney cotton" class="profile__img">
+      <div class="profile__name">Rodney Cotton</div>
+      <div class="profile__location">Helsinki, Finland</div>
+      <div class="profile__badges">
+        <div class="badge__item">
+          <div class="number">100</div>
+          <div class="desc">Posts</div>
+        </div>
+        <div class="badge__item">
+          <div class="number">2,242</div>
+          <div class="desc">Followers</div>
+        </div>
+        <div class="badge__item">
+          <div class="number">1,432</div>
+          <div class="desc">Following</div>
+        </div>
       </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
     </div>
-  </body>
+    <div class="container__gallery">
+      <img class="photo1" src="./photo1.png" alt="sofa with cover" class="gallery__item">
+      <img class="photo2" src="./photo2.png" alt="sofa with a book" class="gallery__item">
+      <img class="photo3" src="./photo3.png" alt="bathtub" class="gallery__item">
+      <img class="photo_4" src="./photo_4.png" alt="lamp" class="gallery__item">
+      <img class="photo5" src="./photo5.png" alt="small table" class="gallery__item">
+      <img class="photo6" src="./photo6.png" alt="plant" class="gallery__item">
+    </div>
+  </main>
+  <footer>created by <b>teseu</b> - devChallenges.io</footer>
+</body>
+
 </html>
