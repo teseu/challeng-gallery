@@ -129,7 +129,7 @@ img {
   }
   .container__gallery {
     grid-gap: 2rem;
-    grid-template-rows: 30rem 29.6rem 29.6rem;
+    grid-template-rows: 390px 380px 390px;
     margin-bottom: 3rem;
   }
 }
